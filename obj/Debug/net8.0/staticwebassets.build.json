@@ -1,0 +1,77 @@
+{
+  "Version": 1,
+  "Hash": "fbQEUS8ESeRHQi7ld7bClxHZA9K2f5s0AcSRJK3rl2g=",
+  "Source": "push_notif",
+  "BasePath": "_content/push_notif",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "push_notif\\wwwroot",
+      "Source": "push_notif",
+      "ContentRoot": "C:\\Users\\t-nfatema\\OneDrive - Microsoft\\Desktop\\push_notif\\push_notif\\wwwroot\\",
+      "BasePath": "_content/push_notif",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\t-nfatema\\OneDrive - Microsoft\\Desktop\\push_notif\\push_notif\\wwwroot\\frontend.html",
+      "SourceId": "push_notif",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\t-nfatema\\OneDrive - Microsoft\\Desktop\\push_notif\\push_notif\\wwwroot\\",
+      "BasePath": "_content/push_notif",
+      "RelativePath": "frontend.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\frontend.html"
+    },
+    {
+      "Identity": "C:\\Users\\t-nfatema\\OneDrive - Microsoft\\Desktop\\push_notif\\push_notif\\wwwroot\\script.js",
+      "SourceId": "push_notif",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\t-nfatema\\OneDrive - Microsoft\\Desktop\\push_notif\\push_notif\\wwwroot\\",
+      "BasePath": "_content/push_notif",
+      "RelativePath": "script.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\script.js"
+    },
+    {
+      "Identity": "C:\\Users\\t-nfatema\\OneDrive - Microsoft\\Desktop\\push_notif\\push_notif\\wwwroot\\service-worker.js",
+      "SourceId": "push_notif",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\t-nfatema\\OneDrive - Microsoft\\Desktop\\push_notif\\push_notif\\wwwroot\\",
+      "BasePath": "_content/push_notif",
+      "RelativePath": "service-worker.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\service-worker.js"
+    }
+  ]
+}

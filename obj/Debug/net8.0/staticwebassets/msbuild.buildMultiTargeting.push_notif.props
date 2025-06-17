@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\push_notif.props" />
+</Project>

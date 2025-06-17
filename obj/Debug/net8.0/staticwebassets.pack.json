@@ -1,0 +1,33 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\t-nfatema\\OneDrive - Microsoft\\Desktop\\push_notif\\push_notif\\wwwroot\\frontend.html",
+      "PackagePath": "staticwebassets\\frontend.html"
+    },
+    {
+      "Id": "C:\\Users\\t-nfatema\\OneDrive - Microsoft\\Desktop\\push_notif\\push_notif\\wwwroot\\script.js",
+      "PackagePath": "staticwebassets\\script.js"
+    },
+    {
+      "Id": "C:\\Users\\t-nfatema\\OneDrive - Microsoft\\Desktop\\push_notif\\push_notif\\wwwroot\\service-worker.js",
+      "PackagePath": "staticwebassets\\service-worker.js"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.push_notif.props",
+      "PackagePath": "build\\push_notif.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.push_notif.props",
+      "PackagePath": "buildMultiTargeting\\push_notif.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.push_notif.props",
+      "PackagePath": "buildTransitive\\push_notif.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.push_notif.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
