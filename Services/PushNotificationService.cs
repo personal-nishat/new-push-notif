@@ -58,7 +58,32 @@ namespace push_notif.Services
             {
                 Console.WriteLine($"Notification error: {ex}");
             }
-            
+
+        }   
+        public async Task SendCustomNotificationAsync(string message)
+        {
+            var payload = $"{{\"title\":\"RSVP Reminder\",\"body\":\"{message}\"}}";
+            foreach (var sub in Controllers.SubscriptionController.GetAll())
+            {
+                var subscription = new Lib.Net.Http.WebPush.PushSubscription
+                {
+                    Endpoint = sub.Endpoint,
+                    Keys = new Dictionary<string, string>
+                    {
+                        { "p256dh", sub.Keys.P256dh },
+                        { "auth", sub.Keys.Auth }
+                    }
+                };
+                var pushMessage = new PushMessage(payload);
+                try
+                {
+                    await _client.RequestPushMessageDeliveryAsync(subscription, pushMessage);
+                }
+                catch (Exception ex)
+                {
+                    Console.WriteLine($"Push message failed: {ex}");
+                }
+            }
         }
 
     }
